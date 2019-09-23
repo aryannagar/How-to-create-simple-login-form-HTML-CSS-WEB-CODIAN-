@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding-top: 14.375rem;
+            width: 100%;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        section{
+            background-image: linear-gradient(to right, #16D9E3 0%, #30C7EC 47%, #46AEF7 100%);
+            position: absolute;
+            height: 25rem;
+            width: 100%;
+        }
+
+        h1{
+            font-size: 3.75rem;
+            color: #fff;
+        }
+
+        form input{
+            outline: 0;
+            width: 15.625rem;
+            display: block;
+            text-align: center;
+            color: #000;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 0.1875rem;
+            padding: 0.625rem 0.9375rem;
+            margin: 0 auto 0.625rem auto;
+            font-size: 1.125rem;
+            transition-duration: 0.25s;
+        }
+
+        form input:hover{
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        form input:focus{
+            background: #fff;
+            color: #30C7EC;
+            width: 18.75rem;
+        }
+        button{
+            outline: 0;
+            border: 0;
+            background: #fff;
+            color: #16D9E3;
+            padding: 0.625rem 0.9375rem;
+            border-radius: 0.1875rem;
+            width: 15.625rem;
+            font-size: 1.125rem;
+            transition: all ease-in-out .3s;
+        }
+
+        button:hover{
+            color: #fff;
+            background: #46AEF7;
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>
+            Sign In
+        </h1>
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Password">
+            <button type="button">Log in</button>
+        </form>
+    </section>
+</body>
+</html>
